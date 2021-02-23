@@ -1,0 +1,35 @@
+{
+  "type": "record",
+  "name": "primitive_schema",
+  "namespace": "com.thoughtworks.avro.example",
+  "fields": [
+    {
+      "name": "boolean_name",
+      "type": "boolean"
+    },
+    {
+      "name": "int_name",
+      "type": "int"
+    },
+    {
+      "name": "long_name",
+      "type": "long"
+    },
+    {
+      "name": "float_name",
+      "type": "float"
+    },
+    {
+      "name": "double_name",
+      "type": "double"
+    },
+    {
+      "name": "byte_name",
+      "type": "bytes"
+    },
+    {
+      "name": "string_name",
+      "type": "string"
+    }
+  ]
+}

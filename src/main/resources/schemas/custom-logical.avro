@@ -1,0 +1,18 @@
+{
+  "type": "record",
+  "name": "logical_schema",
+  "namespace": "com.thoughtworks.avro.example",
+  "fields": [
+    {
+      "name": "short_name",
+      "logicalType": "short",
+      "type": "bytes"
+    },
+    {
+      "name": "string_with_length_name",
+      "logicalType": "string-with-name",
+      "type": "string",
+      "length": 20
+    }
+  ]
+}

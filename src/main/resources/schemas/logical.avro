@@ -1,0 +1,32 @@
+{
+  "type": "record",
+  "name": "logical_schema",
+  "namespace": "com.thoughtworks.avro.example",
+  "fields": [
+    {
+      "name": "decimal_name",
+      "logicalType": "decimal",
+      "type": "bytes"
+    },
+    {
+      "name": "uuid_name",
+      "logicalType": "uuid",
+      "type": "string"
+    },
+    {
+      "name": "date_name",
+      "logicalType": "date",
+      "type": "int"
+    },
+    {
+      "name": "time_millis_name",
+      "logicalType": "time-millis",
+      "type": "int"
+    },
+    {
+      "name": "time_micros_name",
+      "logicalType": "time-micros",
+      "type": "long"
+    }
+  ]
+}
